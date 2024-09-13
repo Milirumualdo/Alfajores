@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirección</title>
+    <script>
+        window.onload = function() {
+            var random = Math.random(); // Genera un número aleatorio entre 0 y 1
+            var porcentajePagina1 = 0.7; // 70% para Página 1
+            if (random < porcentajePagina1) {
+                window.location.href = "https://shiftup-my.sharepoint.com/personal/se41942_stellantis_com/_layouts/15/doc.aspx?sourcedoc={10050792-c9b0-47c9-b0cb-392e043e9498}&action=edit"; // Cambia esta URL por la página 1
+            } else {
+                window.location.href = "https://shiftup-my.sharepoint.com/personal/se41942_stellantis_com/_layouts/15/doc.aspx?sourcedoc={ef6793e2-951e-435e-8363-9859bf3958f4}&action=edit"; // Cambia esta URL por la página 2
+            }
+        };
+    </script>
+</head>
+<body>
+    <h1>Redireccionando...</h1>
+</body>
+</html>
